@@ -42,7 +42,6 @@ Traefik is configured by a `traefik.toml` file
 . Create it and edit it with
 
 ```
-touch traefik.toml
 nano traefik.toml
 ```
 The contents are:
@@ -89,7 +88,6 @@ First a docker network named `proxy` is created which will serve internally for 
 Then docker-composer is configured using a `docker-compose.yml` file:
 
 ```
-touch docker-compose.yml
 nano docker-compose.yml
 ```
 
